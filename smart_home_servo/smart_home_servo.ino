@@ -19,7 +19,8 @@ void loop()
   // memberitahu servo untuk pergi ke posisi  'pos'
   myservo.write(pos);
   // tunggu 15ms untuk pencapaian  posisi servo    
-  delay(10);                  
+  delay(10);   
+  serialPrint("udah aman");
  } 
  // start dari 180 derajat ke 0 derajat 
  for(pos = 180; pos>=1; pos-=1)  
