@@ -31,9 +31,13 @@ void setup()
   
  Blynk.begin(auth, ssid, pass);//setting blynk 
 
+
+} //Good
+=======
 } 
 void loop()
 { 
   Blynk.run();//memulai blynk 
   
 }
+
