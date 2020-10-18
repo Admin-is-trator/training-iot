@@ -11,6 +11,7 @@ void setup() // fungsi utama, sekali dijalankan
 {
   Serial.begin(9600); // untuk monitor di serial print
   Blynk.begin(auth, ssid, pass); // menjalankan blynk sesuai token, wifi, dan paswordnya
+  delay(1000);
   
 }
 
